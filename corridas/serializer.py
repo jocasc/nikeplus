@@ -12,4 +12,4 @@ class RunningSerializer(serializers.ModelSerializer):
 class DistanceSerializer(serializers.ModelSerializer):
     class Meta:
         model = Distance
-        fields = '__all__'#['avg_pace', 'elevation']
+        fields = '__all__'
